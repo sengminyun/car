@@ -1,0 +1,28 @@
+@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+.section01{
+    background: #000;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+.section01-bg{
+    background: url('../images/scetion01.webp') no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+.section01-title{
+    text-align: center;
+    color: #fff;
+    font-family: 'RIDIBatang';
+}
+.section01-title>h1{
+    font-size: 5em;
+    font-weight: bold;
+}
+.section01-title>p{
+    font-size: 2em;
+}
+
