@@ -1,5 +1,8 @@
 @font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .section01{
     background: #000;
     background-position: center;
@@ -202,4 +205,14 @@
         height: 50px;
         margin: 10px 5px;
     }
+}
+.bottom-img{
+    margin-top: 20px;
+}
+.modal-header{
+    padding: 0;
+}
+.modal-header>img{
+    width: 598px;
+    height: 500px;
 }
