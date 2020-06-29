@@ -211,8 +211,17 @@
 }
 .modal-header{
     padding: 0;
+    display: flex;
 }
-.modal-header>img{
-    width: 598px;
-    height: 500px;
+.sub1{
+    line-height: 25px;
+    padding: 30px 10px 0 10px;
+}
+.sub2{
+    line-height: 25px;
+    padding: 20px 10px 0 10px;
+}
+.sub3{
+    line-height: 25px;
+    padding: 50px 10px 0 10px;
 }
