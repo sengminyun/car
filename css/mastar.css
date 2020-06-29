@@ -206,6 +206,21 @@
         margin: 10px 5px;
     }
 }
+.section03{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.sec-title{
+    padding: 30px;
+    line-height: 40px;
+    font-family: 'RIDIBatang';
+}
+.sec-title>h1{
+    font-weight: bold;
+}
+.sec-title>p{
+    font-size: 16px;
+}
 .bottom-img{
     margin-top: 20px;
 }
@@ -215,13 +230,36 @@
 }
 .sub1{
     line-height: 25px;
-    padding: 30px 10px 0 10px;
+    padding: 50px 10px 0 10px;
+}
+.top-img>div>a>img{
+    margin-top: 20px;
+}
+.top-img>div>a>img:hover{
+    opacity: 0.7;
+}
+h4{
+    font-weight: bold;
+}
+.bottom-img>div>a>img{
+    margin-top: 20px;
+}
+.bottom-img>div>a>img:hover{
+    opacity: 0.7;
 }
 .sub2{
     line-height: 25px;
-    padding: 20px 10px 0 10px;
+    padding: 60px 10px 0 10px;
 }
 .sub3{
     line-height: 25px;
-    padding: 50px 10px 0 10px;
+    padding: 100px 10px;
+}
+.sub5>h4{
+    line-height: 25px;
+    padding: 80px 20px;
+}
+.front-img{
+    background-color: #000;
+    color: #fff;
 }
