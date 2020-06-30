@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
 }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 .section01{
     background: #000;
     background-position: center;
@@ -206,7 +214,16 @@
         margin: 10px 5px;
     }
 }
-.section03{
+
+.tab1{
+    width: 49%;
+    font-size: 24px;
+}
+.tab2{
+    width: 49%;
+    font-size: 24px;
+}
+.section05{
     padding-top: 50px;
     padding-bottom: 150px;
 }
@@ -221,9 +238,7 @@
 .sec-title>p{
     font-size: 16px;
 }
-.bottom-img{
-    margin-top: 20px;
-}
+
 .modal-header{
     padding: 0;
     display: flex;
@@ -253,13 +268,11 @@ h4{
 }
 .sub3{
     line-height: 25px;
-    padding: 100px 10px;
+    padding: 50px 10px;
 }
 .sub5>h4{
     line-height: 25px;
     padding: 80px 20px;
 }
-.front-img{
-    background-color: #000;
-    color: #fff;
-}
+
+
