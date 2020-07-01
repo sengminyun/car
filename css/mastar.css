@@ -268,9 +268,33 @@ a{
     background: url('../images/section03-img3.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-    transition: all .5s;
+    transition: all .4s;
 }
 .img-box>div:hover{
     opacity: 0.7;
-    transform: scale(1.2);
+    transform: scale(0.9);
+}
+.img-box>div{
+    margin-top: 30px;
+}
+.sec04-img4{
+    height: 260px;
+    background: url('../images/section03-img4.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .4s;
+}
+.sec04-img5{
+    height: 260px;
+    background: url('../images/section03-img5.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .4s;
+}
+.sec04-img6{
+    height: 260px;
+    background: url('../images/section03-img6.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .4s;
 }
