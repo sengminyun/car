@@ -222,14 +222,15 @@ a{
     width: 98%;
     height: 75vh;
 }
-.tab1{
-    width: 49%;
-    font-size: 24px;
+.tab1,.tab2{
+    font-size: 2em;
 }
-.tab2{
-    width: 49%;
-    font-size: 24px;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                            
+
+
+
+
+
 .section04{
     width: 100%;
     height: 100vh;
@@ -245,41 +246,31 @@ a{
 .sec-title>p{
     font-size: 16px;
 }
-
-.modal-header{
-    padding: 0;
-    display: flex;
+.img-box{
+    overflow: hidden;
 }
-.sub1{
-    line-height: 25px;
-    padding: 50px 10px 0 10px;
+.sec04-img1{
+    height: 260px;
+    background: url('../images/section03-img1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
 }
-.top-img>div>a>img{
-    margin-top: 20px;
+.sec04-img2{
+    height: 260px;
+    background: url('../images/section03-img2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
 }
-.top-img>div>a>img:hover{
+.sec04-img3{
+    height: 260px;
+    background: url('../images/section03-img3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.img-box>div:hover{
     opacity: 0.7;
+    transform: scale(1.2);
 }
-h4{
-    font-weight: bold;
-}
-.bottom-img>div>a>img{
-    margin-top: 20px;
-}
-.bottom-img>div>a>img:hover{
-    opacity: 0.7;
-}
-.sub2{
-    line-height: 25px;
-    padding: 60px 10px 0 10px;
-}
-.sub3{
-    line-height: 25px;
-    padding: 50px 10px;
-}
-.sub5>h4{
-    line-height: 25px;
-    padding: 80px 20px;
-}
-
-

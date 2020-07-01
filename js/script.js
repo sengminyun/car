@@ -94,5 +94,6 @@ $(function(){
         $('.s-title').css('display','none');
         $('.wc').css('opacity',1);
         $('.black,.ml,.burgundy,.rain,.steel').css('opacity',0.5);
-    })
+    });
+
 });
