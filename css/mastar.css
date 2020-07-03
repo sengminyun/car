@@ -1,6 +1,13 @@
 @font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 400; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype'); } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 700; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype') } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 300; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype'); } .nanumbarungothic * { font-family: 'NanumBarunGothic', sans-serif; }
 *{
     margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
+}
+.col-sm-4,.col-sm-3{
     padding: 0;
 }
 li{
@@ -94,12 +101,8 @@ a{
     }
 }
 
-.section02{
-    width: 100%;
-    height: 100vh;
-}
 .color-title{
-    font-family: 'RIDIBatang';
+    font-family: 'NanumBarunGothic';
     padding: 100px 0 60px 0;
 }
 .s-title,.r-title,.bu-title,.ml-title,.wc-title{
@@ -214,99 +217,128 @@ a{
     }
 }
 #section03{
-    width: 100%;
-    height: 110vh;
+    background: url(../images/section02-bg.png) no-repeat;
+    background-size: cover;
 }
-.tab-content{
-    width: 98%;
-    height: 75vh;
+.sec03-title{
+    font-family: 'NanumBarunGothic';
+    padding: 50px;
+    color: #fff;
 }
-
-.tab1,.tab2{
-    font-size: 2em;
+.sec03-img{
+    height: 500px;
+    background: url(../images/front.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 250px;
 }
-
 
 
 
 
 
 #section04{
-    width: 100%;
-    height: 100vh;
+background-color: rgba(0, 0, 0, 0.9);
 }
 
-.sec-title{
-    padding: 30px;
-    line-height: 40px;
-    font-family: 'RIDIBatang';
-}
-.sec-title>h1{
-    font-weight: bold;
-}
-.sec-title>p{
-    font-size: 16px;
-}
-.sec04-img1{
-    width: 35%;
-    height: 600px;
-    background: url('../images/sec04-img1.jpg');
-    background-position: right;
+.left-img{
+    height: 500px;
+    background: url(../images/sec04-img1.jpg);
     background-size: cover;
+    background-position: right;
 }
-/* .img-box{
-    width: 360px;
-    height: 260px;
+.bg-black1{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.img-box{
     overflow: hidden;
 }
-.sec04-img1{
-    height: 260px;
-    background: url('../images/section03-img1.jpg') no-repeat;
+.right-img1{
+    height: 250px;
+    background: url(../images/right-img1.jpg);
     background-position: center;
     background-size: cover;
     transition: all .5s;
-
 }
-.sec04-img2{
-    height: 260px;
-    background: url('../images/section03-img2.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: all .5s;
-
-}
-.sec04-img3{
-    height: 260px;
-    background: url('../images/section03-img3.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: all .4s;
-
-}
-.img-box>div:hover{
+.right-img1:hover{
     transform: scale(1.2);
 }
-.img-box>div{
-    margin-top: 30px;
-}
-.sec04-img4{
-    height: 260px;
-    background: url('../images/section03-img4.jpg') no-repeat;
+.right-img2{
+    height: 250px;
+    background: url(../images/right-img2.jpg);
     background-position: center;
     background-size: cover;
-    transition: all .4s;
+    transition: all .5s;
 }
-.sec04-img5{
-    height: 260px;
-    background: url('../images/section03-img5.jpg') no-repeat;
+.right-img2:hover{
+    transform: scale(1.2);
+}
+.right-img3{
+    height: 250px;
+    background: url(../images/right-img3.jpg);
     background-position: center;
     background-size: cover;
-    transition: all .4s;
+    transition: all .5s;
 }
-.sec04-img6{
-    height: 260px;
-    background: url('../images/section03-img6.jpg') no-repeat;
+.right-img3:hover{
+    transform: scale(1.2);
+}
+.right-img4{
+    height: 250px;
+    background: url(../images/right-img4.jpg);
     background-position: center;
     background-size: cover;
-    transition: all .4s;
-} */
+    transition: all .5s;
+}
+.right-img4:hover{
+    transform: scale(1.2);
+}
+.right-img5{
+    height: 250px;
+    background: url(../images/right-img5.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.right-img5:hover{
+    transform: scale(1.2);
+}
+.right-img6{
+    height: 250px;
+    background: url(../images/right-img6.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.right-img6:hover{
+    transform: scale(1.2);
+}
+.right-img7{
+    height: 250px;
+    background: url(../images/right-img7.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.right-img7:hover{
+    transform: scale(1.2);
+}
+.right-img8{
+    height: 250px;
+    background: url(../images/right-img8.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.right-img8:hover{
+    transform: scale(1.2);
+}
+
+
