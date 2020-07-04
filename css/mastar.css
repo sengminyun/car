@@ -286,6 +286,7 @@ background-color: rgba(0, 0, 0, 0.9);
     background-position: center;
     background-size: cover;
     transition: all .5s;
+
 }
 .right-img3:hover{
     transform: scale(1.2);
@@ -300,6 +301,22 @@ background-color: rgba(0, 0, 0, 0.9);
 .right-img4:hover{
     transform: scale(1.2);
 }
+
+}
+.right-img3:hover{
+    transform: scale(1.2);
+}
+.right-img4{
+    height: 250px;
+    background: url(../images/right-img4.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.right-img4:hover{
+    transform: scale(1.2);
+}
+
 .right-img5{
     height: 250px;
     background: url(../images/right-img5.jpg);
@@ -339,4 +356,10 @@ background-color: rgba(0, 0, 0, 0.9);
 }
 .right-img8:hover{
     transform: scale(1.2);
+
 }
+
+
+
+
+
