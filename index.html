@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/jquery.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/mastar.css">
     <link rel="shortcut icon" href="images/icon.png">
@@ -64,18 +65,25 @@
             <h1>존재감마저 남다른 차별화된 디자인</h1>
             <p>캘리그래피 전용 전면가공 알로이 휠과 크롬 라디에이터 그릴 및 인테이크 그릴이 플래그십 SUV다운 위용을 보여줍니다.</p>
         </div>
-        <div class="row">
+        <div class="container">
+            <div class="col-sm-12">
             <ul class="nav nav-tabs nav-justified">
                 <li class="tab1 active">
-                    <a data-toggle="pill" href="#tab1">시트 구성</a>
+                    <a href="#tab1" data-toggle="tab" data-target="#front">Front</a>
                 </li>
                 <li class="tab2">
-                    <a data-toggle="pill" href="#tab2">시트 색상</a>
+                    <a href="#tab2" data-toggle="tab" data-target="#rear">Rear</a>
                 </li>
             </ul>
-            <div class="row">
+            </div>
+        <div class="container">
+            <div class="col-sm-12 front-img" id="front">
 
             </div>
+            <div class="col-sm-12 rear-img" id="rear">
+
+            </div>
+        </div>
         </div>
     </div>
 </div>
@@ -89,27 +97,132 @@
     <div class="container text-center">
         <div class="row top">
             <div class="col-sm-4 img-box">
-                <div class="sec04-img1"></div>
+                <div class="sec04-img1" data-toggle="modal" data-target="#myModal1"></div>
             </div>
             <div class="col-sm-4 img-box">
-                <div class="sec04-img2"></div>
+                <div class="sec04-img2" data-toggle="modal" data-target="#myModal2"></div>
             </div>
             <div class="col-sm-4 img-box">
-                <div class="sec04-img3"></div>
+                <div class="sec04-img3" data-toggle="modal" data-target="#myModal3"></div>
             </div>
+
+        <!-- modal -->
+            <div class="modal fade" id="myModal1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header sub">
+                            <img src="images/section03-img1.jpg" alt="modal1">
+                            <div class="sub-1">
+                                <h4>후측방 모니터</h4>
+                                <p>방향지시등 스위치를 조작하면 해당 방향의 후측방 영상을 클러스터에 표시해줍니다.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- modal1 -->
+            <div class="modal fade" id="myModal2" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header sub">
+                            <img src="images/section03-img2.jpg" alt="modal2">
+                            <div class="sub-2">
+                                <h4>전자식 변속버튼 <br> 8단 자동변속기</h4>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- modal2 -->
+            <div class="modal fade" id="myModal3" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header sub">
+                            <img src="images/section03-img3.jpg" alt="modal3">
+                            <div class="sub-3">
+                                <h4>USB 충전기</h4>
+                                <p>1열 시트백 측면부와 3열 사이드에 USB 충전포트를 각각 2개씩 장착하여 2열 승객 및 3열 승객의 모바일 디바이스 충전이 용이하도록 하였습니다.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- modal3 -->
+        <!-- modal1~3 -->
         </div>
     </div>
     <div class="container text-center">
         <div class="row bottom">
             <div class="col-sm-4 img-box">
-                <div class="sec04-img4"></div>
+                <div class="sec04-img4" data-toggle="modal" data-target="#myModal4"></div>
             </div>
             <div class="col-sm-4 img-box">
-                <div class="sec04-img5"></div>
+                <div class="sec04-img5" data-toggle="modal" data-target="#myModal5"></div>
             </div>
             <div class="col-sm-4 img-box">
-                <div class="sec04-img6"></div>
+                <div class="sec04-img6" data-toggle="modal" data-target="#myModal6"></div>
             </div>
+            <!-- modal -->
+            <div class="modal fade" id="myModal4" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header sub">
+                            <img src="images/section03-img4.jpg" alt="modal1">
+                            <div class="sub-4">
+                                <h4>3존 독립제어 풀오토 에어컨</h4>
+                                <p>1열 듀얼 풀오토 에어컨과 함께 후석에서 개별 제어 가능한 풀오토 에어컨을 배치하여, 운전석 및 동승석은 물론 후석까지 개별 온도 제어가 가능합니다. 2열 승객을 위한 통풍(7인승) 및 열선시트 버튼도 적용되었습니다.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- modal1 -->
+            <div class="modal fade" id="myModal5" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header sub">
+                            <img src="images/section03-img5.jpg" alt="modal2">
+                            <div class="sub-5">
+                                <h4>스마트폰 무선 충전기</h4>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- modal2 -->
+            <div class="modal fade" id="myModal6" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header sub">
+                            <img src="images/section03-img6.jpg" alt="modal3">
+                            <div class="sub-6">
+                                <h4>터치 스위치, 냉온장 컵홀더</h4>
+                                <p>터치 스위치는 후석 엔터테인먼트 시스템, 공기청정기, 냉온장 컵홀더 제어 용도입니다.</p>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- modal3 -->
+        <!-- modal1~3 -->
         </div>
     </div>
 
@@ -121,24 +234,10 @@
 
 
 
-    <!-- <div class="modal fade" id="myModal1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <img src="images/section03-img3.jpg" alt="">
-                    <div class="sub3">
-                        <h4>후측방 모니터</h4>
-                        <p>방향지시등 스위치를 조작하면 해당 방향의 후측방 영상을 클러스터에 표시해줍니다.</p>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div> -->
+
     
 </div>
+<script src="js/swiper.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
