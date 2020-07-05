@@ -24,10 +24,9 @@ a{
 
 }
 .section01-bg{
-    background: url('../images/scetion01.webp') no-repeat;
-    background-position:center;
+    background: url('../images/scetion01-bg.jpg') no-repeat;
     background-size: cover;
-    width: 100%;
+    background-position: bottom;
     height: 80vh;
 }
 .section01-title{
@@ -37,7 +36,7 @@ a{
 }
 .section01-title>h1{
     font-size: 5em;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .section01-title>p{
     font-size: 2em;
@@ -100,7 +99,41 @@ a{
         letter-spacing: 5px;
     }
 }
+/* section01 */
 
+
+/* section02 */
+#section02{
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: 'NanumBarunGothic';
+}
+.sec02-img1{
+    height: 300px;
+    background: url(../images/sec02-img1.jpg) no-repeat;
+    background-position: bottom;
+    margin-top: 100px;
+}
+.sec02-title1{
+    text-align: center;
+    color: #fff;
+}
+.sec02-img2{
+    height: 300px;
+    background: url(../images/sec02-img2.jpg) no-repeat;
+    background-position: bottom;
+    margin-top: 300px;
+}
+.sec02-title2{
+    text-align: center;
+    color: #fff;
+}
+/* section02 */
+
+
+
+
+
+/* section03 */
 .color-title{
     font-family: 'NanumBarunGothic';
     padding: 100px 0 60px 0;
@@ -216,27 +249,15 @@ a{
         margin: 10px 5px;
     }
 }
-#section03{
-    background: url(../images/section02-bg.png) no-repeat;
-    background-size: cover;
-}
-.sec03-title{
-    font-family: 'NanumBarunGothic';
-    padding: 50px;
-    color: #fff;
-}
-.sec03-img{
-    height: 500px;
-    background: url(../images/front.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-top: 250px;
-}
+/* section03 */
 
 
 
 
 
+
+
+/* section04 */
 #section04{
 background-color: rgba(0, 0, 0, 0.9);
 font-family: 'NanumBarunGothic';
@@ -422,3 +443,6 @@ h4{
     color: #fff;
     padding: 50px;
 }
+
+
+/* section04 */
