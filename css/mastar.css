@@ -7,7 +7,7 @@
 .container-fluid{
     padding: 0;
 }
-.col-sm-4,.col-sm-3{
+.col-sm-4,.col-sm-3,.col-lg-4{
     padding: 0;
 }
 li{
@@ -239,6 +239,7 @@ a{
 
 #section04{
 background-color: rgba(0, 0, 0, 0.9);
+font-family: 'NanumBarunGothic';
 }
 
 .left-img{
@@ -258,7 +259,11 @@ background-color: rgba(0, 0, 0, 0.9);
     height: 100%;
 }
 .img-box{
+    height: 250px;
     overflow: hidden;
+}
+.left-box,.right-box{
+    margin-top: 100px;
 }
 .right-img1{
     height: 250px;
@@ -302,7 +307,7 @@ background-color: rgba(0, 0, 0, 0.9);
     transform: scale(1.2);
 }
 
-}
+
 .right-img3:hover{
     transform: scale(1.2);
 }
@@ -358,8 +363,44 @@ background-color: rgba(0, 0, 0, 0.9);
     transform: scale(1.2);
 
 }
-
-
-
-
+.option{
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    padding-top: 250px;
+}
+.sec04-title{
+    color: #fff;
+    padding: 50px;
+}
+.sec04-title>h1{
+    margin-bottom: 20px;
+}
+.img-title{
+    color: #fff;
+}
+.img1-sub{
+    padding: 110px 20px;
+}
+.img2-sub{
+    padding: 110px 20px;
+}
+.img3-sub{
+    padding: 110px 20px;
+}
+.img4-sub{
+    padding: 110px 20px;
+}
+.img5-sub{
+    padding: 110px 20px;
+}
+.img6-sub{
+    padding: 110px 20px;
+}
+.img7-sub{
+    padding: 110px 20px;
+}
+.img8-sub{
+    padding: 110px 20px;
+}
 
