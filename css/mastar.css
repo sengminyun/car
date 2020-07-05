@@ -241,12 +241,23 @@ a{
 background-color: rgba(0, 0, 0, 0.9);
 font-family: 'NanumBarunGothic';
 }
-
 .left-img{
     height: 500px;
     background: url(../images/sec04-img1.jpg);
     background-size: cover;
     background-position: right;
+}
+h4{
+    margin: 0;
+}
+.option{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+}
+.left-box,.right-box{
+    margin-top: 100px;
 }
 .bg-black1{
     background-color: rgba(0, 0, 0, 0.5);
@@ -257,17 +268,15 @@ font-family: 'NanumBarunGothic';
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
+    display: none;
 }
 .img-box{
     height: 250px;
     overflow: hidden;
 }
-.left-box,.right-box{
-    margin-top: 100px;
-}
 .right-img1{
-    height: 250px;
     background: url(../images/right-img1.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
@@ -275,9 +284,17 @@ font-family: 'NanumBarunGothic';
 .right-img1:hover{
     transform: scale(1.2);
 }
+.img1-sub{
+    color: #fff;
+    padding: 160px 10px;
+    transition: all .3s;
+}
+.img1-sub:hover{
+    transform: scale(0.8);
+}
 .right-img2{
-    height: 250px;
     background: url(../images/right-img2.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
@@ -285,20 +302,35 @@ font-family: 'NanumBarunGothic';
 .right-img2:hover{
     transform: scale(1.2);
 }
+.img2-sub{
+    color: #fff;
+    padding: 190px 10px;
+    transition: all .3s;
+}
+.img2-sub:hover{
+    transform: scale(0.8);
+}
 .right-img3{
-    height: 250px;
     background: url(../images/right-img3.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
-
 }
 .right-img3:hover{
     transform: scale(1.2);
 }
+.img3-sub{
+    color: #fff;
+    padding: 140px 10px;
+    transition: all .3s;
+}
+.img3-sub:hover{
+    transform: scale(0.8);
+}
 .right-img4{
-    height: 250px;
     background: url(../images/right-img4.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
@@ -306,25 +338,17 @@ font-family: 'NanumBarunGothic';
 .right-img4:hover{
     transform: scale(1.2);
 }
-
-
-.right-img3:hover{
-    transform: scale(1.2);
+.img4-sub{
+    color: #fff;
+    padding: 190px 10px;
+    transition: all .3s;
 }
-.right-img4{
-    height: 250px;
-    background: url(../images/right-img4.jpg);
-    background-position: center;
-    background-size: cover;
-    transition: all .5s;
+.img4-sub:hover{
+    transform: scale(0.8);
 }
-.right-img4:hover{
-    transform: scale(1.2);
-}
-
 .right-img5{
-    height: 250px;
     background: url(../images/right-img5.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
@@ -332,9 +356,17 @@ font-family: 'NanumBarunGothic';
 .right-img5:hover{
     transform: scale(1.2);
 }
+.img5-sub{
+    color: #fff;
+    padding: 140px 10px;
+    transition: all .3s;
+}
+.img5-sub:hover{
+    transform: scale(0.8);
+}
 .right-img6{
-    height: 250px;
     background: url(../images/right-img6.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
@@ -342,9 +374,17 @@ font-family: 'NanumBarunGothic';
 .right-img6:hover{
     transform: scale(1.2);
 }
+.img6-sub{
+    color: #fff;
+    padding: 190px 10px;
+    transition: all .3s;
+}
+.img6-sub:hover{
+    transform: scale(0.8);
+}
 .right-img7{
-    height: 250px;
     background: url(../images/right-img7.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
@@ -352,55 +392,33 @@ font-family: 'NanumBarunGothic';
 .right-img7:hover{
     transform: scale(1.2);
 }
+.img7-sub{
+    color: #fff;
+    padding: 160px 10px;
+    transition: all .3s;
+}
+.img7-sub:hover{
+    transform: scale(0.8);
+}
 .right-img8{
-    height: 250px;
     background: url(../images/right-img8.jpg);
+    height: 250px;
     background-position: center;
     background-size: cover;
     transition: all .5s;
 }
 .right-img8:hover{
     transform: scale(1.2);
-
 }
-.option{
+.img8-sub{
     color: #fff;
-    margin: 0;
-    text-align: center;
-    padding-top: 250px;
+    padding: 160px 10px;
+    transition: all .3s;
+}
+.img8-sub:hover{
+    transform: scale(0.8);
 }
 .sec04-title{
     color: #fff;
     padding: 50px;
 }
-.sec04-title>h1{
-    margin-bottom: 20px;
-}
-.img-title{
-    color: #fff;
-}
-.img1-sub{
-    padding: 110px 20px;
-}
-.img2-sub{
-    padding: 110px 20px;
-}
-.img3-sub{
-    padding: 110px 20px;
-}
-.img4-sub{
-    padding: 110px 20px;
-}
-.img5-sub{
-    padding: 110px 20px;
-}
-.img6-sub{
-    padding: 110px 20px;
-}
-.img7-sub{
-    padding: 110px 20px;
-}
-.img8-sub{
-    padding: 110px 20px;
-}
-
