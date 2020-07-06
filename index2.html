@@ -8,6 +8,7 @@
     <script src="js/scrolloverflow.min.js"></script>
     <script src="js/jquery.fullPage.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/mastar.css">
     <link rel="shortcut icon" href="images/icon.png">
     
@@ -18,16 +19,17 @@
     <section id="fullpage">
         <div class="section" id="section01">
             <div class="section01-bg">
-            </div>
-            <div class="section01-title">
-                <h1>PALISADE</h1>
+                <div class="section01-title">
+                    <h1>PALISADE</h1>
+                    <p>실용적이고 다양한 라이프스타일의 만족감을 드립니다.</p>
+                </div>
             </div>
         </div>
        
         <div class="section" id="section02">
             <div class="container-fluid text-center">
                 <div class="col-sm-6">
-                    <div class="sec02-img1">
+                    <div class="sec02-img1" data-aos="fade-up">
 
                     </div>
                     <div class="sec02-title1">
@@ -42,6 +44,17 @@
                     <div class="sec02-title2">
                         <h1>당신만의 영역을 찾아서.</h1>
                         <h4>소중한 가족과의 시간을 충분히 채웠다면 이제 당신만의 라이프스타일을 폭넓게 펼칠 시간.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-sm-12">
+                    <div class="sec02-img3">
+                        
+                    </div>
+                    <div class="sec02-title3">
+                        <h1>미래지향적인 이미지 및 고급스러운 감성</h1>
+                        <h4>하이테크한 이미지와 와이드한 레이아웃으로 시각적인 즐거움을 제공합니다.</h4>
                     </div>
                 </div>
             </div>
@@ -66,15 +79,73 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-6 color-title">
-                        ul>li*6
+                        <ul>
+                            <li class="white"><h2>화이트 크림</h2></li>
+                            <li class="steel"><h2>스틸 그라파이트</h2></li>
+                            <li class="moon"><h2>문라이트 클라우드</h2></li>
+                            <li class="black"><h2>타임리스 블랙</h2></li>
+                            <li class="burgundy"><h2>시에라 버건디</h2></li>
+                            <li class="rain"><h2>레인 포레스트</h2></li>
+                        </ul>
                     </div>
-                    <div class="col-sm-6 tab-color">
-
+                    <div class="col-lg-4">
+                        <ul class="tab-color">
+                            <li class="wc"><a href="#white"></a></li>
+                            <li class="st"><a href="#steel"></a></li>
+                            <li class="mo"><a href="#moon"></a></li>
+                            <li class="bl"><a href="#black"></a></li>
+                            <li class="bu"><a href="#burgundy"></a></li>
+                            <li class="ra"><a href="#rain"></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
         <div class="section" id="section04">
+            <div class="container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/black-seat.jpg" alt="">
+                            <div class="seat-sub">
+                                <h1>블랙 원톤 (인조가죽 시트 / Cross metal / 니트)</h1>
+                                <p>인조가죽시트가 적용된 블랙원톤 인테리어는 시트에 다이아몬드 패턴이 평평한 형태로 박음질 되어있고, 니트 소재가 인테리어 일부에 포함됩니다.<br> 그리고 크로스 메탈(Cross Metal)이라 부르는 심플한 느낌의 가니시 패턴이 적용됩니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/black-seat2.jpg" alt="">
+                            <div class="seat-sub">
+                                <h1>블랙 원톤 (가죽 시트 / Cross hatch / 멜란지)</h1>
+                                <p>가죽시트가 적용된 블랙원톤 인테리어는 시트에 퀼팅(누빔) 처리된 다이아몬드 패턴이 박음질 되어있고, 유행을 타지 않는 클래식한 소재로 알려진 멜란지가 인테리어 일부에 적용됩니다.<br> 그리고 크로스 해치(Cross Hatch)라 부르는, 마름모 꼴이 여러 겹으로 교차된 듯한 기하학적인 가니시 패턴이 포함됩니다.</p>
+                            </div>
+                        </div>
+                         <div class="swiper-slide">
+                            <img src="images/burgundy-seat.jpg" alt="">
+                            <div class="seat-sub">
+                                <h1>버건디 (나파가죽 시트 / Cloth look / 스웨이드)</h1>
+                                <p>버건디 인테리어 컬러와 함께 클로즈 룩(Cloth Look) 패턴이 가니시로 적용되고, 부드럽고 고급스러운 느낌의 스웨이드 소재가 함께 포함됩니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/white-crea-seat.jpg" alt="">
+                            <div class="seat-sub">
+                                <h1>웜그레이 (나파가죽 시트 / Beech wood / 스웨이드)</h1>
+                                <p>문라이트 클라우드 외장 컬러와 함께 가장 먼저 소개된 웜그레이 컬러는 명칭대로 밝고 따뜻하며 편안한 느낌을 탑승자에게 제공합니다. <br>웜그레이 컬러와 함께 적용된 비치 우드(Beech Wood) 가니시 패턴과 밝은 색상의 스웨이드 소재는 가족을 위한 아늑한 공간을 원했던 고객에게 최고의 만족감을 선사합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="section" id="section05">
             <div class="container-fluid sec04">
                 <div class="col-lg-4 col-sm-12 left-box">
                     <div class="left-img">
@@ -169,14 +240,27 @@
                 </div>
             </div>
             <div class="container">
-                <div class="sec04-title text-center">
+                <div class="sec05-title text-center">
                     <h1>다양한 첨단 편의 기능 적용</h1>
                     <h4>후석 승객을 위한 후석 대화/취침모드 기능, 고속도로 주행 보조 및 액티브 노이즈 컨트롤 등 다양한 첨단 편의사양을 갖추었습니다.</h3>
                 </div>
             </div>
         </div>
+
     </section>
 
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 </html>
