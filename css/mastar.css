@@ -452,7 +452,7 @@ h4{
     transition: all 0.5s;
 }
 .right-img1:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img1-sub{
     width: 200px;
@@ -470,7 +470,7 @@ h4{
     transition: all 0.5s;;
 }
 .right-img2:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img2-sub{
     width: 200px;
@@ -489,13 +489,13 @@ h4{
     transition: all 0.5s;
 }
 .right-img3:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img3-sub{
     width: 200px;
     height: 100px;
     color: #fff;
-    padding-top: 150px;
+    padding-top: 160px;
     margin-left: 50px;
     font-size: 10px;
 }
@@ -508,7 +508,7 @@ h4{
     transition: all 0.5s;
 }
 .right-img4:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img4-sub{
     width: 200px;
@@ -527,13 +527,13 @@ h4{
     transition: all 0.5s;
 }
 .right-img5:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img5-sub{
     width: 200px;
     height: 100px;
     color: #fff;
-    padding-top: 150px;
+    padding-top: 160px;
     margin-left: 50px;
     font-size: 10px;
 }
@@ -546,7 +546,7 @@ h4{
     transition: all 0.5s;
 }
 .right-img6:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img6-sub{
     width: 200px;
@@ -565,7 +565,7 @@ h4{
     transition: all 0.5s;
 }
 .right-img7:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img7-sub{
     width: 200px;
@@ -584,7 +584,7 @@ h4{
     transition: all 0.5s;
 }
 .right-img8:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .img8-sub{
     width: 200px;
@@ -604,4 +604,21 @@ h4{
 /* section06 */
 #section06{
     background: rgba(0, 0, 0, 0.9);
+    font-family: 'NanumBarunGothic';
+    color: #fff;
+}
+.sec06-pill{
+    width: 1150px;
+}
+.sec06-title{
+    padding: 50px 0;
+}
+.video-box{
+    margin-top: 10px;
+}
+.video-sub{
+    padding: 25px;
+}
+#section07{
+    background-color: rgba(0, 0, 0, 0.9);
 }

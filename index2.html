@@ -7,8 +7,10 @@
     <script src="bootstrap/bootstrap.min.js"></script>
     <script src="js/scrolloverflow.min.js"></script>
     <script src="js/jquery.fullPage.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/mastar.css">
     <link rel="shortcut icon" href="images/icon.png">
     
@@ -28,7 +30,7 @@
        
         <div class="section" id="section02">
             <div class="container-fluid text-center">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-up">
                     <div class="sec02-img1" data-aos="fade-up">
 
                     </div>
@@ -169,7 +171,6 @@
                                <div class="bg-black bg1">
                                    <div class="img1-sub">
                                        <h4>후측방 모니터</h4>
-                                       <p>방향지시등 스위치를 조작하면 해당 방향의 후측방 영상을 클러스터에 표시해줍니다.<p>
                                    </div>
                                </div>
                            </div>
@@ -188,7 +189,6 @@
                                 <div class="bg-black bg3">
                                     <div class="img3-sub">
                                         <h4>USB 충전기 </h4>
-                                        <p>1열 시트백 측면부와 3열 사이드에 USB 충전포트를 각각 2개씩 장착하여 2열 승객 및 3열 승객의 모바일 디바이스 충전이 용이하도록 하였습니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -209,7 +209,6 @@
                                 <div class="bg-black bg5">
                                     <div class="img5-sub">
                                         <h4>풀오토 에어컨</h4>
-                                        <p>듀얼 풀오토 에어컨과 함께 후석에서 개별 제어 가능한 풀오토 에어컨을 배치하여, 운전석 및 동승석은 물론 후석까지 개별 온도 제어가 가능합니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -228,7 +227,6 @@
                                 <div class="bg-black bg7">
                                     <div class="img7-sub">
                                         <h4>터치 스위치 /냉온장 컵홀더</h4>
-                                        <p>터치 스위치는 후석 엔터테인먼트 시스템, 공기청정기, 냉온장 컵홀더 제어 용도입니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +236,6 @@
                                 <div class="bg-black bg8">
                                     <div class="img8-sub">
                                         <h4>스마트 내비게이션</h4>
-                                        <p>대화면 디스플레이를 통해 내비게이션 및 다양한 미디어를 편리하게 사용할 수 있습니다.</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,12 +246,105 @@
             <div class="container">
                 <div class="sec05-title text-center">
                     <h1>다양한 첨단 편의 기능 적용</h1>
-                    <h4>후석 승객을 위한 후석 대화/취침모드 기능, 고속도로 주행 보조 및 액티브 노이즈 컨트롤 등 다양한 첨단 편의사양을 갖추었습니다.</h3>
+                    <h4>후석 승객을 위한 후석 대화/취침모드 기능, 고속도로 주행 보조 및 액티브 노이즈 컨트롤 등 다양한 첨단 편의사양을 갖추었습니다.</h4>
                 </div>
             </div>
         </div>
         <div class="section" id="section06">
-            
+            <div class="container text-center">
+                <h1 class="sec06-title">액티브 세이프티 시스템</h1>
+            </div>
+            <div class="container sec06-pill">
+                <div class="video-menu">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="active"><a data-toggle="pill" href="#video1">전방 충돌방지 보조</a></li>
+                        <li><a data-toggle="pill" href="#video2">하이빔 보조</a></li>
+                        <li><a data-toggle="pill" href="#video3">스마트 크루 컨트롤</a></li>
+                        <li><a data-toggle="pill" href="#video4">안전 하차 보조</a></li>
+                        <li><a data-toggle="pill" href="#video5">고속도로 주행 보조</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="video1" class="tab-pane fade in active">
+                            <div class="video-box">
+                                <video controls>
+                                    <source src="video/video1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 text-center">
+                                    <h3 class="video-title">전방 충돌방지 보조</h3>
+                                </div>
+                                <div class="col-lg-8">
+                                    <p class="video-sub">윈드쉴드 글라스에 전방 감지 센서를 통하여 전방 차량/보행 거리 및 상대속도를 판단하여 충돌 위험 시 경고문 표시 또는<br> 경고음 등으로 위험을 운전자에게 알려주며, 필요 시 브레이크를 작동시켜 피해를 줄여줍니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="video2" class="tab-pane fade">
+                            <div class="video-box">                                
+                                <video controls>
+                                    <source src="video/video2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 text-center">
+                                    <h3 class="video-title">하이빔 보조</h3>
+                                </div>
+                                <div class="col-lg-8">
+                                    <p class="video-sub">마주오는 차량 또는 앞 차량의 램프 및 주변 밝기 상태를 감지하여 전조등을 자동으로 상향 또는 하향으로 전환합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="video3" class="tab-pane fade">
+                            <div class="video-box">                              
+                                <video controls>
+                                    <source src="video/video3.mp4" type="video/mp4">
+                                </video>                                
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 text-center">
+                                    <h3 class="video-title">스마트 크루즈 컨트롤</h3>
+                                </div>
+                                <div class="col-lg-8">
+                                    <p class="video-sub">전방의 차량을 감지하여 스스로 가속과 감속을 하며 차량의 속도를 일정하게 유지 시켜주고, 차량 정체로 앞차 정차 시 정지하고 전방 차량 출발 시 다시 거리를 유지하며 주행하는 장치입니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="video4" class="tab-pane fade">
+                            <div class="video-box">
+                                <video controls>
+                                    <source src="video/video4.mp4" type="video/mp4">
+                                </video>                                
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 text-center">
+                                    <h3 class="video-title">안전 하차 보조</h3>
+                                </div>
+                                <div class="col-lg-8">
+                                    <p class="video-sub">차량 정차 후 후측방에서 접근하는 차량이 감지되면 뒷좌석 도어의 차일드락 잠금 상태를 유지하고 전좌석 도어 오픈 시도 시 경고를 줍니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="video5" class="tab-pane fade">
+                            <div class="video-box">   
+                                <video controls>
+                                    <source src="video/video5.mp4" type="video/mp4">
+                                </video>                            
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 text-center">
+                                    <h3 class="video-title">고속도로 주행 보조</h3>
+                                </div>
+                                <div class="col-lg-8">
+                                    <p class="video-sub">고속도로 본선 주행 시 전방 차량과의 거리, 차선 정보, 내비게이션 <br>정보를 이용하여 차량 속도를 제어는 물론 차로 유지를 보조해줍니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section07">
+
         </div>
 
     </section>
@@ -271,6 +361,7 @@
         clickable: true,
       },
     });
+    AOS.init();
   </script>
 </body>
 </html>

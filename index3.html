@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="js/scrolloverflow.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="css/mastar.css">
+    <link rel="shortcut icon" href="images/icon.png">
+    
+
+    <title>PALISADE</title>
+</head>
+<body>
+    <section id="fullpage">
+        <div class="scetion"></div>
+        <div class="scetion"></div>
+        <div class="scetion"></div>
+        <div class="scetion"></div>
+        <div class="scetion"></div>
+        <div class="scetion"></div>
+        <div class="scetion"></div>
+    </section>
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+    $(document).ready(function() {
+   $('#fullpage').fullpage({
+      anchors: ['firstPage', 'secondPage', '3rdPage'],
+      sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['First page', 'Second page', 'Third and last page']
+   });
+});
+  </script>
+</body>
+</html>
