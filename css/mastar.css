@@ -142,7 +142,7 @@ a{
     }
     .sec02-title1>h1{
         font-size: 16px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .sec02-title1>h4{
         font-size: 12px;
@@ -151,7 +151,7 @@ a{
         height: 200px;
         background: url(../images/sec02-img2-375.jpg) no-repeat;
         background-position: center;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .sec02-title2{
         text-align: center;
@@ -163,12 +163,12 @@ a{
     }
     .sec02-title2>h4{
         font-size: 12px;
-        padding: 0 35px;
+        padding: 0 10px;
     }
     .sec02-img3{
         height: 200px;
         background: url(../images/sec02-img3-375.jpg) no-repeat;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .sec02-title3{
         text-align: center;
@@ -180,7 +180,7 @@ a{
     }
     .sec02-title3>h4{
         font-size: 12px;
-        padding: 0 40px;
+        padding: 0 10px;
     }
 }
 /* section02 */
@@ -322,10 +322,19 @@ a{
     height: 600px;
     background: url(../images/white-crea-seat.jpg) no-repeat;
 }
-.sub-more{
-    width: 100px;
-    height: 30px;
+.seat-sub{
+    text-align: center;
+}
+.sub-more>div{
+    width: 10px;
+    height: 10px;
+    /* border-radius: 100%; */
     background-color: #fff;
+}
+.sub-more{
+    /* width: 100px;
+    height: 30px; */
+    /* background-color: #fff; */
     color: #000;
     border: none;
     margin-bottom: 5px;
@@ -363,7 +372,7 @@ a{
     }
     .sec04-title{
         font-size: 24px;
-        padding-top: 50px;
+        padding-top: 150px;
         padding-bottom: 0;
     }
     .seat-sub{
@@ -371,13 +380,11 @@ a{
     }
     .seat-sub>h1{
         font-size: 16px;
-        text-align: center;
     }
     .seat-sub>p{
         display: none;
         font-size: 12px;
         padding-top: 5px;
-        text-align: center;
         letter-spacing: 1px;
     }
     .sub-more{
