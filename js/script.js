@@ -194,3 +194,17 @@ $(function(){
          $('.bg8').css('display','none');
       });
 });
+$(function(){
+   $('.more1').click(function(){
+      $('.sub1>p').slideToggle();
+   });
+   $('.more2').click(function(){
+      $('.sub2>p').slideToggle();
+   });
+   $('.more3').click(function(){
+      $('.sub3>p').slideToggle();
+   });
+   $('.more4').click(function(){
+      $('.sub4>p').slideToggle();
+   });
+});

@@ -19,18 +19,17 @@ a{
     display: block;
 }
 
-#section01{
-    background: #000;
-    background-position: center;
 
-}
 .section01-bg{
     background: url('../images/scetion01-bg.jpg') no-repeat;
     background-size: cover;
     height: 100%;
 }
-.section01-title>h1{
+.section01-title{
     text-align: right;
+}
+.section01-title>h1{
+
     color: #fff;
     font-family: 'RIDIBatang';
     letter-spacing: 18px;
@@ -41,28 +40,18 @@ a{
 }
 .section01-title>p{
     color: #fff;
-    text-align: right;
+
     padding-right: 200px;
     font-size: 18px;
 }
 
 @media(max-width:1024px){
-    #section01{
-        height: 95vh;
-    }
-    .section01-bg{
-        height: 80vh;
-    }
+
 
 }
 @media(max-width:768px){
-    #section01{
-        height: 95vh;
-    }
-    .section01-bg{
-        height: 80vh;
-        background-size: cover;
-        background-position: center;
+    .section-1-title{
+        text-align: center;
     }
     .section01-title>h1{
         font-size: 4em;
@@ -74,32 +63,32 @@ a{
     }
 }
 @media(max-width:500px){
-    #section01{
-        height: 80vh;
-    }
-    .section01-bg{
-        height: 60vh;
-    }
     .section01-title>p{
-        letter-spacing: 1px;
     }
 }
-@media(max-width:376px){
+@media(max-width:375px){
     #section01{
-        height: 70vh;
+        background: url(../images/scetion01-bg-375.jpg) no-repeat;
     }
     .section01-bg{
-        height: 50vh;
-        background-position: center;
-        background-size: cover;
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%;
+    }
+    .section01-title{
+        text-align: center;
     }
     .section01-title>h1{
         font-size: 3em;
-        letter-spacing: 0;
+        letter-spacing: 15px;
+        padding-top: 450px;
+        padding-right: 0;
+
     }
     .section01-title>p{
         font-size: 1em;
-        letter-spacing: 5px;
+        padding-right: 0;
+        letter-spacing:0;
+        font-size: 12px;
     }
 }
 /* section01 */
@@ -141,6 +130,59 @@ a{
     text-align: center;
     color: #fff;
 }
+@media(max-width:375px){
+    .sec02-img1{
+        height: 200px;
+        background: url(../images/sec02-img1-375.jpg) no-repeat;
+        margin-top: 10px;
+    }
+    .sec02-title1{
+        text-align: center;
+        color: #fff;
+    }
+    .sec02-title1>h1{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .sec02-title1>h4{
+        font-size: 12px;
+    }
+    .sec02-img2{
+        height: 200px;
+        background: url(../images/sec02-img2-375.jpg) no-repeat;
+        background-position: center;
+        margin-top: 10px;
+    }
+    .sec02-title2{
+        text-align: center;
+        color: #fff;
+    }
+    .sec02-title2>h1{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .sec02-title2>h4{
+        font-size: 12px;
+        padding: 0 35px;
+    }
+    .sec02-img3{
+        height: 200px;
+        background: url(../images/sec02-img3-375.jpg) no-repeat;
+        margin-top: 10px;
+    }
+    .sec02-title3{
+        text-align: center;
+        color: #fff;
+    }
+    .sec02-title3>h1{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .sec02-title3>h4{
+        font-size: 12px;
+        padding: 0 40px;
+    }
+}
 /* section02 */
 
 
@@ -152,7 +194,7 @@ a{
 /* section03 */
 #section03{
     font-family: 'NanumBarunGothic';
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .sec03-title{
     padding: 60px 0;
@@ -181,6 +223,7 @@ a{
     height: 50px;
     cursor: pointer;
 }
+
 .wc{
     background-color: #fff;
     border: 3px solid #444;
@@ -205,21 +248,52 @@ a{
     background-color: #2c3836;
     border: 1px solid #444;
 }
-
+@media(max-width:375px){
+    .sec03-title{
+        padding: 60px 0 0 0;
+    }
+    .sec03-title>h1{
+        margin-top: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .sec03-title>h4{
+        display: none;
+        font-size: 12px;
+        padding: 0 20px;
+    }
+    .car-color-img{
+        padding: 0;
+    }
+    .color-title{
+        padding: 0;
+    }
+    h2{
+        font-size: 16px;
+        margin: 0;
+    }
+    .tab-color{
+        padding: 20px 20px;
+    }
+}
+/* section03 */
 
 
 
 
 /* section04 */
 #section04{
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     font-family: 'NanumBarunGothic';
     color: #fff;
+}
+.sec04-title{
+    padding: 50px 0;
 }
 .swiper-wrapper{
     width: 1120px;
     height: 800px;
-    margin-top: 150px;
+
 }
 .swiper-pagination-bullet {
     width: 20px;
@@ -227,8 +301,98 @@ a{
     border-radius: 100%;
     opacity: 1;
 }
-.seat-sub{
-    padding: 30px 0;
+
+.sec04-img1{
+    width: 100%;
+    height: 600px;
+    background: url(../images/black-seat.jpg) no-repeat;
+}
+.sec04-img2{
+    width: 100%;
+    height: 600px;
+    background: url(../images/black-seat2.jpg) no-repeat;
+}
+.sec04-img3{
+    width: 100%;
+    height: 600px;
+    background: url(../images/burgundy-seat.jpg) no-repeat;
+}
+.sec04-img4{
+    width: 100%;
+    height: 600px;
+    background: url(../images/white-crea-seat.jpg) no-repeat;
+}
+.sub-more{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    display: none;
+    margin: 0 auto;
+}
+@media(max-width:375px){
+    .swiper-wrapper{
+        width: 90%;
+        height: 600px;
+        background-size: cover;
+    }
+    .sec04-img1{
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .sec04-img2{
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .sec04-img3{
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .sec04-img4{
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .sec04-title{
+        font-size: 24px;
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .seat-sub{
+        padding: 0;
+    }
+    .seat-sub>h1{
+        font-size: 16px;
+        text-align: center;
+    }
+    .seat-sub>p{
+        display: none;
+        font-size: 12px;
+        padding-top: 5px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .sub-more{
+        width: 60px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+        display: block;
+    }
+    .sub-more>span{
+        width: 10px;
+        height: 10px;
+        border-radius: 3px;
+        background-color: #000;
+    }
 }
 /* section04 */
 
@@ -278,7 +442,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .right-img1:hover{
     transform: scale(1.2);
@@ -296,7 +460,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;;
+    transition: all 0.5s;;
 }
 .right-img2:hover{
     transform: scale(1.2);
@@ -315,7 +479,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .right-img3:hover{
     transform: scale(1.2);
@@ -334,7 +498,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .right-img4:hover{
     transform: scale(1.2);
@@ -353,7 +517,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .right-img5:hover{
     transform: scale(1.2);
@@ -372,7 +536,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .right-img6:hover{
     transform: scale(1.2);
@@ -391,7 +555,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .right-img7:hover{
     transform: scale(1.2);
@@ -410,7 +574,7 @@ h4{
     height: 250px;
     background-position: center;
     background-size: cover;
-    transition: all 0.7s;
+    transition: all 0.5s;
 }
 .right-img8:hover{
     transform: scale(1.2);
