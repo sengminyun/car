@@ -33,13 +33,13 @@ a{
     font-family: 'RIDIBatang';
     letter-spacing: 18px;
     margin: 0;
-    padding-top: 600px;
-    padding-right: 200px;
+    padding-top: 30%;
+    padding-right: 5%;
     font-size: 60px;
 }
 .section01-title>p{
     color: #fff;
-    padding-right: 200px;
+    padding-right: 5%;
     font-size: 18px;
 }
 @media(max-width:1200px){
@@ -55,33 +55,6 @@ a{
         text-align: center;
     }
 }
-
-@media(max-width:376px){
-    #section01{
-        background: url(../images/scetion01-bg-375.jpg) no-repeat;
-    }
-    .section01-bg{
-        background: rgba(0, 0, 0, 0.5);
-        height: 100%;
-    }
-    .section01-title{
-        text-align: center;
-    }
-    .section01-title>h1{
-        font-size: 3em;
-        letter-spacing: 15px;
-        padding-top: 450px;
-        padding-right: 0;
-
-    }
-    .section01-title>p{
-        font-size: 1em;
-        margin-right: 15px;
-        padding-right: 0;
-        letter-spacing:0;
-        font-size: 12px;
-    }
-}
 /* section01 */
 
 
@@ -94,7 +67,7 @@ a{
     height: 300px;
     background: url(../images/sec02-img1.jpg) no-repeat;
     background-position: bottom;
-    margin-top: 70px;
+    margin-top: 10%;
 }
 .sec02-title1{
     text-align: center;
@@ -105,7 +78,7 @@ a{
     height: 300px;
     background: url(../images/sec02-img2.jpg) no-repeat;
     background-position: bottom;
-    margin-top: 70px;
+    margin-top: 10%;
 }
 .sec02-title2{
     text-align: center;
@@ -115,7 +88,7 @@ a{
     height: 300px;
     background: url(../images/sec02-img3.jpg) no-repeat;
     background-position: center;
-    margin-top: 50px;
+    margin-top: 5%;
 }
 .sec02-title3{
     text-align: center;
@@ -133,62 +106,9 @@ a{
     }
     .sec02-img1,.sec02-img2,.sec02-img3{
         height: 250px;
-        margin-top: 20px;
     }
 }
-@media(max-width:375px){
-    .sec02-img1{
-        height: 200px;
-        background: url(../images/sec02-img1-375.jpg) no-repeat;
-        margin-top: 10px;
-    }
-    .sec02-title1{
-        text-align: center;
-        color: #fff;
-    }
-    .sec02-title1>h1{
-        font-size: 16px;
-        margin-top: 15px;
-    }
-    .sec02-title1>h4{
-        font-size: 12px;
-    }
-    .sec02-img2{
-        height: 200px;
-        background: url(../images/sec02-img2-375.jpg) no-repeat;
-        background-position: center;
-        margin-top: 15px;
-    }
-    .sec02-title2{
-        text-align: center;
-        color: #fff;
-    }
-    .sec02-title2>h1{
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    .sec02-title2>h4{
-        font-size: 12px;
-        padding: 0 10px;
-    }
-    .sec02-img3{
-        height: 200px;
-        background: url(../images/sec02-img3-375.jpg) no-repeat;
-        margin-top: 15px;
-    }
-    .sec02-title3{
-        text-align: center;
-        color: #fff;
-    }
-    .sec02-title3>h1{
-        font-size: 16px;
-        margin-top: 10px;
-    }
-    .sec02-title3>h4{
-        font-size: 12px;
-        padding: 0 10px;
-    }
-}
+
 /* section02 */
 
 
