@@ -124,10 +124,7 @@ steel
 
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-      anchors: ['firstPage', 'secondPage', '3rdPage'],
-		navigation: true,
-		navigationPosition: 'right',
-		navigationTooltips: ['First page', 'Second page', 'Third and last page']
+
 	});
 
 
@@ -211,5 +208,10 @@ $(function(){
    });
    $('.more4').click(function(){
       $('.sub4>p').slideToggle();
+   });
+});
+$(function(){
+   $('.btn1').click(function(){
+      $('.video-xub1').slideToggle();
    });
 });
