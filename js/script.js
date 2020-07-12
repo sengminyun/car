@@ -212,6 +212,18 @@ $(function(){
 });
 $(function(){
    $('.btn1').click(function(){
-      $('.video-xub1').slideToggle();
+      $('.video-sub1').slideToggle();
+   });
+   $('.btn2').click(function(){
+      $('.video-sub2').slideToggle();
+   });
+   $('.btn3').click(function(){
+      $('.video-sub3').slideToggle();
+   });
+   $('.btn4').click(function(){
+      $('.video-sub4').slideToggle();
+   });
+   $('.btn5').click(function(){
+      $('.video-sub5').slideToggle();
    });
 });
