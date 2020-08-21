@@ -78,7 +78,7 @@ a{
     font-family: 'NanumBarunGothic';
 }
 .sec02-img1{
-    height: 300px;
+    height: 280px;
     background: url(../images/sec02-img1.jpg) no-repeat;
     background-position: bottom;
     margin-top: 10%;
@@ -89,7 +89,7 @@ a{
 
 }
 .sec02-img2{
-    height: 300px;
+    height: 280px;
     background: url(../images/sec02-img2.jpg) no-repeat;
     background-position: bottom;
     margin-top: 10%;
@@ -99,7 +99,7 @@ a{
     color: #fff;
 }
 .sec02-img3{
-    height: 300px;
+    height: 280px;
     background: url(../images/sec02-img3.jpg) no-repeat;
     background-position: center;
     margin-top: 2%;
@@ -332,7 +332,7 @@ a{
 }
 .swiper-wrapper{
     width: 1120px;
-    height: 800px;
+    height: 750px;
 }
 .swiper-pagination-bullet {
     width: 20px;
