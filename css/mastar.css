@@ -118,6 +118,7 @@ a{
     .sec02-title3>h1{
         font-size: 24px;
     }
+
     .sec02-img1,.sec02-img2,.sec02-img3{
         height: 250px;
     }
@@ -148,6 +149,9 @@ a{
     }
     .sec02-title3>h1{
         font-size: 16px;
+    }
+    .sec02-img1{
+        margin-top: 100px;
     }
     h4{
         font-size: 12px;
@@ -294,7 +298,7 @@ a{
 @media(max-width:375px){
     .sec03-title{
         padding: 30px 0;
-        margin-top: 50px;
+        margin-top: 120px;
     }
     .sec03-title>h1{
         font-size: 16px;
@@ -429,9 +433,10 @@ a{
     .sec04-title{
         font-size: 16px;
         padding: 30px 0;
+        margin-top: 100px;
     }
     .swiper-wrapper{
-        height: 500px;
+        height: 460px;
     }
     .sec04-img1,.sec04-img2,.sec04-img3,.sec04-img4{
         height: 300px;
@@ -672,7 +677,7 @@ h4{
 @media(max-width:375px){
     .left-img{
         height: 200px;
-        margin-top: 15px;
+        margin-top: 80px;
     }
     .img-box{
         height: 110px;
@@ -745,6 +750,7 @@ h4{
     .sec06-title{
         padding: 30px;
         font-size: 16px;
+        margin-top: 100px;
     }
     .video-title{
         font-size: 16px;
